@@ -1,0 +1,17 @@
+{
+	"name": "wanted-challenge",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://github.com/yesslkim/wanted-challenge.git",
+	"author": "Ye Seul Kim <yskim940914@gmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"prettier:format": "prettier --write ./**/*.{html,css,js}",
+		"eslint:fix": "eslint --fix ./assets/**/*.js",
+		"format": "npm run prettier:format && npm run eslint:fix"
+	},
+	"devDependencies": {
+		"eslint": "^8.48.0",
+		"prettier": "^3.0.3"
+	}
+}
